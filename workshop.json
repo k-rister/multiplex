@@ -1,0 +1,26 @@
+{
+    "workshop": {
+        "schema": {
+            "version": "2020.03.02"
+        }
+    },
+    "userenvs": [
+        {
+            "name": "crucible-controller",
+            "requirements": [
+                "multiplex-python-deps"
+            ]
+        }
+    ],
+    "requirements": [
+        {
+            "name": "multiplex-python-deps",
+            "type": "python3",
+            "python3_info": {
+                "packages": [
+                    "jsonschema"
+                ]
+            }
+        }
+    ]
+}
